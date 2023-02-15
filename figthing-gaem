@@ -1,0 +1,17 @@
+
+import pygame
+import random
+
+background = pygame.image.load("./assets/background.png") #bug suspect from the slash
+screen = pygame.display.set_mode((960,480))# half of 1080p
+
+
+
+
+
+
+
+
+while True:
+    screen.blit(background,(0,0))
+
